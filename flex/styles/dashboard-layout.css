@@ -1,0 +1,28 @@
+.dashboard {
+    margin: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    border: 1px solid rgb(202, 202, 202);
+    border-radius: 7px;
+    width: 300px;
+} 
+
+.dashboard-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px 16px;
+}
+
+.dashboard-notification-count {
+    margin: 0;
+    padding: 5px 15px;
+    background-color: rgb(58, 113, 232);
+    color: white;
+    border-radius: 20px;
+    font-size: 17px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
