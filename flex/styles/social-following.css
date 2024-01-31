@@ -1,0 +1,52 @@
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+.flexbox-account-row {
+    display: flex;
+    height: 70px;
+    width: 400px;
+    margin: 20px;
+    align-items: center;
+}
+
+.profile-image {
+    height: 60px;
+    width: 60px;
+    margin-right: 15px;
+    object-fit: cover;
+    border-radius: 30px;
+}
+
+.profile-info-section {
+    flex: 4;
+    font-size: 17px;
+    color: gray;
+    line-height: 25px;
+}
+
+.profile-name{
+    font-weight: bold;
+    color: black;
+}
+
+.profile-popularity {
+    font-size: 16px;
+}
+
+.profile-button {
+    padding: 10px 15px;
+    font-size: 17px;
+    font-weight: bold;
+    color: white;
+    background-color: #568fe3;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.profile-button:hover {
+    background-color: #568ad8;
+}
