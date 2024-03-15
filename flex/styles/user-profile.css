@@ -1,0 +1,65 @@
+body {
+  height: 3000px;
+}
+
+.profile-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  padding: 10px 70px;
+}
+
+.user-content {
+  display: flex;
+  align-items: center;
+}
+
+.user-photo {
+  width: 40px;
+  height: 40px;
+  object-fit: cover;
+  border-radius: 20px;
+  margin-right: 10px;
+}
+
+.profile-buttons {
+  display: flex;
+  align-items: center;
+}
+
+.user-name {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+.btn {
+  font-weight: bold;
+  padding: 7px 14px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.btn-add-user {
+  color: white;
+  background-color: rgb(101, 142, 230);
+  margin-right: 7px;
+}
+
+.btn-add-user:hover {
+  background-color: rgb(109, 154, 250);
+}
+
+.btn-message {
+  color: black;
+  background-color: rgb(233, 233, 233);
+}
+
+.btn-message:hover {
+  background-color: rgb(228, 228, 228);
+}
