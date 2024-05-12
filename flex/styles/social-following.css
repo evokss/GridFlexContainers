@@ -1,22 +1,38 @@
+:root {
+    --primary-color: #4CAF50;
+    --secondary-color: #568ad8;
+    --accent-color: #FF9800;
+    --text-color: #333333;
+}
+
 p {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "Poppins", sans-serif;
     margin: 0;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 50px;
 }
 
 .flexbox-account-row {
     display: flex;
     height: 70px;
     width: 400px;
-    margin: 20px;
     align-items: center;
 }
 
 .profile-image {
-    height: 60px;
-    width: 60px;
+    height: 65px;
+    width: 65px;
     margin-right: 15px;
     object-fit: cover;
-    border-radius: 30px;
+    border-radius: 35px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }
 
 .profile-info-section {
@@ -28,11 +44,12 @@ p {
 
 .profile-name{
     font-weight: bold;
-    color: black;
+    color: var(--text-color);
 }
 
 .profile-popularity {
     font-size: 16px;
+    color: var(--accent-color);;
 }
 
 .profile-button {
@@ -40,13 +57,16 @@ p {
     font-size: 17px;
     font-weight: bold;
     color: white;
-    background-color: #568fe3;
+    background-color: var(--primary-color);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    transition: 0.2s;
+    transition: all 0.3s ease;
 }
 
 .profile-button:hover {
-    background-color: #568ad8;
-}
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    background-color: var(--secondary-color);
+    transform: translateY(-2px);
+  }
