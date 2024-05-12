@@ -1,19 +1,30 @@
 .dashboard {
-    margin: 20px;
+    margin: 40px auto;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
     border: 1px solid rgb(202, 202, 202);
     border-radius: 7px;
     width: 300px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 } 
 
 .dashboard-row {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
+
     padding: 8px 16px;
+    transition: background-color 0.3s ease;
 }
+
+.dashboard-row:hover {
+    background-color: rgba(0, 0, 0, 0.05);
+    cursor: pointer;
+  }
 
 .dashboard-notification-count {
     margin: 0;
@@ -21,8 +32,14 @@
     background-color: rgb(58, 113, 232);
     color: white;
     border-radius: 20px;
-    font-size: 17px;
+    font-size: 16px;
     font-weight: 600;
-    cursor: pointer;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease, transform 0.3s ease;
 }
+
+.dashboard-notification-count:hover {
+    background-color: rgb(41, 89, 206);
+    transform: scale(1.1);
+  }
 
