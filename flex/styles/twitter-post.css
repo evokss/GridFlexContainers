@@ -1,8 +1,27 @@
+:root {
+  --text-color: #333333;
+  --muted-text-color: #6f6f6f;
+  --border-color: #ececec;
+  --background-color: #ffffff;
+  --shadow-color: rgba(0, 0, 0, 0.1);
+  --video-bg-color: #fbfafa;
+  --font-family: 'Roboto', Arial, sans-serif;
+  --font-weight-normal: 400;
+  --font-weight-medium: 500;
+}
+
 p {
   margin: 0;
-  font-family: "Roboto", sans-serif;
-  font-weight: 400;
+  font-family: var(--font-family);
+  font-weight: var(--font-weight-normal);
   font-style: normal;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
 }
 
 .twitter-post {
@@ -11,6 +30,11 @@ p {
   width: 420px;
   margin-top: 10px;
   margin-left: 20px;
+  margin-bottom: 20px;
+  padding: 20px;
+  background-color: var(--background-color);
+  border-radius: 8px;
+  box-shadow: 0 2px 4px var(--shadow-color);
 }
 
 .profile-photo-column {
@@ -21,7 +45,7 @@ p {
   width: 60px;
   height: 60px;
   object-fit: cover;
-  border-radius: 30px;
+  border-radius: 50%;
 }
 
 .post-info-column {
@@ -35,33 +59,43 @@ p {
 }
 
 .post-autor {
-  font-weight: bold;
   margin-right: 5px;
+  font-weight: var(--font-weight-medium);
+  color: var(--text-color);
 }
 
 .post-autor-adress-name {
-  color: rgb(111, 111, 111);
+  color: var(--muted-text-color);
 }
 
 .post-content {
-  line-height: 20px;
-  margin-bottom: 15px;
+  color: var(--text-color);
+  font-size: 16px;
+  line-height: 24px;
+  margin-bottom: 20px;
 }
 
 .video-preview {
   display: flex;
   flex-direction: row;
-  border: solid rgb(236, 236, 236) 1px;
-  border-radius: 15px;
   align-items: center;
+  border: solid var(--border-color) 1px;
+  border-radius: 15px;
   overflow: hidden;
 }
 
 .video-poster-column {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   width: 100px;
   height: 100px;
-  background-color: rgb(220, 220, 220);
+  background-color: var(--video-bg-color);
   margin-right: 10px;
+}
+
+.video-youtube-logo {
+  height: 60px;
 }
 
 .video-info-column {
@@ -69,10 +103,37 @@ p {
 }
 
 .video-platform {
-  color: rgb(111, 111, 111);
-  margin-bottom: 3px;
+  color: var(--muted-text-color);
+  margin-bottom: 7px;
 }
 
 .video-title {
+  color: var(--text-color);
+  font-size: 16px;
+  font-weight: var(--font-weight-medium);
   line-height: 22px;
+  margin-right: 10px;
+}
+
+@media (max-width: 480px) {
+  .twitter-post {
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .profile-photo-column {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+
+  .video-preview {
+    flex-direction: column;
+  }
+
+  .video-poster-column {
+    width: 100%;
+    height: auto;
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
 }
