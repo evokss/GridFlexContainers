@@ -1,173 +1,150 @@
 # Project Summary
 
-## Promotional Email Interface: A Sleek and User-Friendly Design  ##
+## Promotional Email Interface — Sleek and User-Friendly Design
 
-This project presents an **elegant and visually appealing interface for displaying promotional emails**. <br>
+This project features an **elegant and visually appealing interface** for displaying promotional emails.
 
-Built with HTML and CSS, the design showcases a **clean and modern layout** that <br> 
-effectively organizes and displays email content.
+Developed using **HTML and CSS**, it showcases a **clean, modern layout** that effectively organizes email content for easy navigation.
 
 <details>
-<summary><i>How is the project structured?</i></summary>
+<summary><i>🔧 How is the project structured?</i></summary>
 
->The interface features a container that serves as a <br>
->**central hub for displaying all the promotional messages**. <br>
+The interface includes a container that acts as a  
+**central hub for all promotional messages**.
 
->Each message is represented by a **distinctive card-like structure**, which <br>
->includes the sender's profile picture, name, and the time the message was sent. <br>
+Each message is presented as a **distinct card**, featuring:  
+• Sender’s profile photo  
+• Sender’s name  
+• Timestamp  
+• Subject line  
+• A brief snippet of the email body
 
->The subject line and a snippet of the email body are prominently displayed, <br>
->**providing users with a quick overview** of the message content.
+This layout offers a **quick and informative overview** of each message.
 
 </details>
 
 <details>
-<summary><i>Few words about styles</i></summary>
+<summary><i>🎨 A few words about styling</i></summary>
 
->The CSS styles employed in this project contribute significantly <br>
->to the **overall aesthetics and usability of the interface**. <br>
+The CSS is designed to enhance **both aesthetics and usability**.
 
->The use of appropriate colors, typography, and <br>
->spacing creates a **visually pleasing and accessible experience**. <br>
+It incorporates a **balanced use of colors, fonts, and spacing**, creating a  
+**visually pleasing and accessible experience**.
 
->The container and message cards are styled with subtle shadows and rounded corners, <br>
->lending a **contemporary and polished look**.
+Elements like **shadows and rounded corners** give the container and cards a  
+**polished and contemporary appearance**.
 
 </details>
 
 <img src="flex/screenshots/prom-emails_sreensh.jpg" alt="todo-main" style="width: 600px;"><br>
 
 <details>
-<summary><i>Result</i></summary>
+<summary><i>✅ Result</i></summary>
 
->With its **user-friendly design** and **attention to detail**, <br>
-
->this promotional email interface offers <br>
->an **efficient and visually appealing way** <br>
->to showcase and manage promotional messages, <br>
-
->making it an **ideal solution for businesses or individuals** <br>
->seeking to streamline their email marketing efforts.
+This interface offers a **user-friendly and visually efficient way**  
+to showcase promotional content — ideal for **individuals or businesses**  
+aiming to improve their email marketing presentation.
 
 </details>
 
-## Engaging Social Following Interface: Connect with Your Favorite Furry Friends  ##
+---
 
-This project presents a **captivating and user-friendly interface** <br>
-designed to showcase a social following experience. <br>
+## Engaging Social Following Interface — Connect with Furry Friends
 
-Built with HTML and CSS, the interface offers a **visually appealing layout** that <br>
-**seamlessly displays profiles** of various animals, <br>
-encouraging users to connect and follow their favorite furry companions.
+This project introduces a **charming and user-friendly layout** for a social following experience.
+
+Crafted with **HTML and CSS**, it presents a **bright and engaging design**  
+that encourages users to **connect with their favorite animal profiles**.
 
 <details>
-<summary><i>How is the project structured?</i></summary>
+<summary><i>🔧 How is the project structured?</i></summary>
 
->At the heart of this design lies a container that serves as <br>
->a **central hub, where each profile is elegantly presented in a row-like structure**. <br>
+A central container organizes **each animal profile into a row**.
 
->Each row features a **striking profile image**, showcasing the endearing face of the animal. <br>
+Each row includes:  
+• A standout profile image  
+• A short description  
+• A popularity indicator
 
->Accompanying the image is a **concise yet informative section** that <br>
->displays the animal's name, a brief description. <br>
-
->And a popularity indicator, **providing users with an engaging glimpse into the profile's content**.
+This structure ensures a **clear, concise, and engaging experience** for users.
 
 </details>
 
 <details>
-<summary><i>Few words about styles</i></summary>
+<summary><i>🎨 A few words about styling</i></summary>
 
->The CSS styles employed in this project contribute significantly <br>
->to the **overall aesthetics and usability of the interface**. <br>
+Uses a **vibrant yet balanced color palette** for visual appeal.
 
->The **thoughtful use of colors**, such as the vibrant primary and secondary hues, <br>
->along with the accent color, creates a **visually appealing and harmonious experience**. <br>
+Typography from the **Poppins font family** adds sophistication.
 
->The typography, carefully curated from the Poppins font family, <br>
->adds a **touch of sophistication and readability** to the content.
+Design choices emphasize **readability and visual harmony** throughout.
 
 </details>
 
 <img src="flex/screenshots/social-follow-screensh.jpg" alt="todo-main" style="width: 550px;"><br>
 
 <details>
-<summary><i>Standout features</i></summary>
+<summary><i>⭐ Standout features</i></summary>
 
->One of the standout features of this design is the inclusion of <br>
->a **"Follow" button alongside each profile**. <br>
+Each profile includes a **"Follow" button** with:  
+• A modern, inviting look  
+• Subtle hover animation for interactivity
 
->This **interactive element, styled with a sleek and inviting appearance**, <br>
->encourages users to connect with their favorite animal profiles seamlessly. <br>
-
->The button's hover effect, which subtly **enhances its appearance** and <br>
->**introduces a delightful animation**, adds an engaging and <br>
->**responsive touch to the overall user experience**.
+This adds a **dynamic and user-friendly layer** to the interface.
 
 </details>
 
 <img src="flex/screenshots/social-follow-hover-screensh.jpg" alt="todo-main" style="width: 550px;"><br>
 
 <details>
-<summary><i>Result</i></summary>
+<summary><i>✅ Result</i></summary>
 
->With its **captivating visuals, intuitive layout, and interactive elements**, <br>
-
->this social following interface offers a **delightful and immersive experience**, <br>
->allowing users to effortlessly discover and connect with their favorite animal companions.
+This design delivers a **fun and immersive experience**,  
+making it easy for users to **connect with animal profiles**  
+through a **delightful and responsive interface**.
 
 </details>
 
-## Modern and Accessible Dashboard Experience  ##
+---
 
-This project presents a **sleek and modern dashboard layout**, <br> 
-meticulously crafted to provide users with a seamless and intuitive experience. <br> 
+## Modern and Accessible Dashboard Experience
 
-Built with HTML and CSS, the design showcases a **clean and visually appealing interface** that <br> 
-effortlessly organizes and displays essential information.
+This project offers a **streamlined, modern dashboard layout**,  
+carefully designed to deliver a **clear and intuitive user experience**.
+
+Built with **HTML and CSS**, the layout provides a **professional interface**  
+for presenting essential information effectively.
 
 <details>
-<summary><i>How is the project structured?</i></summary>
+<summary><i>🔧 How is the project structured?</i></summary>
 
->At the core of this layout lies a **centered dashboard container**, which <br> 
->serves as the focal point for displaying various sections. <br>
+The layout includes a **centered container** for organizing multiple sections.
 
->Each section is represented by a **row-like structure**, <br> 
->presenting the relevant information in a clear and concise manner. <br>
+Each section is arranged in a **horizontal row format**,  
+enriched with **interactive hover effects** for usability.
 
->The **rows are thoughtfully styled with subtle hover effects**, <br> 
->inviting users to interact with the sections and explore further details.
 </details>
 
 <details>
-<summary><i>Few words about styles</i></summary>
+<summary><i>🎨 A few words about styling</i></summary>
 
->The CSS styles employed in this project contribute significantly <br> 
->to the **overall aesthetics and usability of the interface**. <br>
+Utilizes the **Montserrat font** for professional readability.
 
->The typography, carefully selected from the elegant Montserrat font family, <br> 
->lends a sense of **professionalism and readability to the content**. <br>
-
->The subtle use of shadows and rounded corners adds depth and <br> 
->a **modern touch to the dashboard container**, <br>
-
->creating a **visually appealing and polished look**.
+Features **rounded corners, shadows, and elegant spacing**  
+to produce a **clean and polished appearance**.
 
 </details>
 
 <img src="flex/screenshots/dashboard-layout_screensh.jpg" alt="todo-main" style="width: 500px;"><br>
 
 <details>
-<summary><i>Standout features</i></summary>
+<summary><i>⭐ Standout features</i></summary>
 
->One of the standout features of this design is <br> 
->the **inclusion of notification counts alongside each section**. <br>
+Each dashboard section displays **notification counters**  
+inside **attention-grabbing circular badges**.
 
->These counts are prominently displayed within **eye-catching circular elements**, <br> 
->instantly drawing the user's attention to areas that require their immediate focus. <br>
-
->The notification counts are styled with a **contrasting color scheme** and <br> 
->**subtle hover effects**, further enhancing their visibility and interactivity.
+**Contrasting colors and hover animations**  
+improve **visual hierarchy and user engagement**.
 
 </details>
 
@@ -175,80 +152,79 @@ effortlessly organizes and displays essential information.
 <img src="flex/screenshots/dashboard-layout-hover-count_screensh.jpg" alt="todo-main" style="width: 500px;"><br>
 
 <details>
-<summary><i>Result</i></summary>
+<summary><i>✅ Result</i></summary>
 
->With its **clean and organized layout, intuitive design elements, and attention to detail**, <br>
-
->this dashboard layout offers a **visually appealing and user-friendly experience**, <br>
-
->making it an **ideal choice for various applications** that <br> 
->require efficient information organization and presentation.
+A **highly usable and visually structured dashboard**,  
+ideal for **applications requiring organized, glanceable information**.
 
 </details>
 
-## Captivating Social Media Post with Immersive Video Preview  ##
+---
 
-This project presents a **sleek and visually appealing layout for displaying Twitter posts**, <br>
-seamlessly integrating video previews for an enhanced user experience. <br>
+## Captivating Twitter Post Layout with Video Preview
 
-Crafted with HTML and CSS, the **design offers a clean and modern interface** that <br>
-effectively showcases post content alongside captivating video teasers.
+This project introduces a **modern layout for social media posts**,  
+highlighting an embedded **video preview for added engagement**.
 
-<details>
-<summary><i>How is the project structured?</i></summary>
-
->The layout features a central container that serves as a **hub for displaying the Twitter post**. <br>
-
->Within this container, the post is **structured into two main columns**: <br>
-> * one dedicated to the user's profile photo and <br>
-> * the other containing the post's content and video preview.
-</details>
+Built with **HTML and CSS**, this layout ensures content is  
+**clear, responsive, and interactive**.
 
 <details>
-<summary><i>Few words about styles</i></summary>
+<summary><i>🔧 How is the project structured?</i></summary>
 
->The CSS styles employed in this project contribute significantly <br>
->to the **overall aesthetics and usability of the interface**. <br>
+A central container splits the layout into two sections:  
+• Profile photo  
+• Post content + video preview
 
->The typography, selected from the Roboto font family, <br>
->ensures **optimal readability and a polished look**. <br>
-
->Additionally, the project incorporates **responsive design principles**, <br>
->ensuring that the Twitter post layout **adapts seamlessly to various screen sizes**.
+This division improves **readability and visual flow**.
 
 </details>
 
 <details>
-<summary><i>Standout features</i></summary>
+<summary><i>🎨 A few words about styling</i></summary>
 
->One of the standout features of this design is <br>
->the **integration of a video preview section**. <br>
+Uses the **Roboto font** for a polished, clean appearance.
 
->This section **seamlessly incorporates the YouTube logo and video information**, <br>
->providing users with an enticing glimpse of the video content. <br>
+Implements **responsive design techniques** to support various screen sizes.
+
+**Clean spacing and typography** improve the **visual hierarchy**.
+
+</details>
+
+<details>
+<summary><i>⭐ Standout features</i></summary>
+
+Integrates a **stylized video preview** with:  
+• YouTube branding  
+• Embedded metadata
+
+This makes for a **natural, appealing video teaser**  
+embedded within a tweet-style card.
 
 </details>
 
 <img src="flex/screenshots/twitter-post_screensh.jpg" alt="todo-main" style="width: 650px;"><br>
 
 <details>
-<summary><i>Result</i></summary>
+<summary><i>✅ Result</i></summary>
 
->With its **clean and organized layout, <br>
->seamless video preview integration, and responsive design**, this <br>
-
->Twitter post project offers an **engaging and visually appealing way** to <br>
->showcase social media content, providing users with a **seamless and enjoyable experience**.
+A **polished and visually balanced social post layout**,  
+perfect for **enhancing engagement** with multimedia content  
+in a **familiar format**.
 
 </details>
 
-## Section: New friend pop-up  ##
+---
+
+## Section: New Friend Pop-up
 
 <img src="flex/screenshots/new-friend_screensh.jpg" alt="todo-main" style="width: 650px;"><br>
 <img src="flex/screenshots/new-friend-hover-mes_screensh.jpg" alt="todo-main" style="width: 650px;"><br>
 <img src="flex/screenshots/new-friend-hover-add_screensh.jpg" alt="todo-main" style="width: 650px;"><br>
 
-## Section: Search  ##
+---
+
+## Section: Search Interface
 
 <img src="flex/screenshots/search-page_screensh.jpg" alt="todo-main" style="width: 1200px;"><br>
 <img src="flex/screenshots/search-page-hover_screensh.jpg" alt="todo-main" style="width: 1200px;"><br>
